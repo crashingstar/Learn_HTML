@@ -13,74 +13,176 @@
         background-attachment: fixed;
         background-size: cover;
       }
+      table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
     </style>
   </head>
   <body>
 	<!--script src="index.js"></script-->
+  
     <h1>My Learning Progress</h1>
     <p>References:</p>  
     <p style="color:red;">References (Red) :</p>
     <a href="https://www.freecodecamp.org/news/basic-html5-template-boilerplate-code-example/">Boilerplate</a>
     <br>
     <a href="https://www.w3schools.com/html/html_intro.asp">W3School HTML</a>
-    <hr>
-    <p>HTML Heading: h1 to h6</p>
-    <p>HTML Paragraph: hr,br,pre</p>
-    <p>HTML Style:  style="property:value;" </p>
-    <ul>
-        Use <b>background-color</b> for background color<br>
-        Use <b>color</b> for text colors<br>
-        Use <b>font-family</b> for text fonts<br>
-        Use <b>font-size</b> for text sizes<br>
-        Use <b>text-align</b> for text alignment<br>
-    </ul>
-    <p>HTML Formatting</p>
-    <ul>
-        b - Bold text<br>
-        strong - Important text<br>
-        i - Italic text<br>
-        em - Emphasized text<br>
-        mark - Marked text<br>
-        small - Smaller text<br>
-        del - Deleted text<br>
-        ins - Inserted text<br>
-        sub - Subscript text<br>
-        sup - Superscript text<br>
-    </ul>
-    <p>HTML Quotation and Citation</p>
-    <ul>
-        blockquote<br>
-        q<br>
-        abbr<br>
-        address<br>
-        cite<br>
-        bdo<br>
-    </ul>
-    <p>HTML Links</p>
-    <ul>
-      target:<br>
-      _self(default) - Open link on same page<br>
-      _blank - Opens the document in a new window or tab<br>
-      _parent - Opens the document in the parent frame<br>
-      _top - Opens the document in the full body of the window<br>
-
-      <p><a href="#C2">Jump to Chapter 2</a></p>
-      <h2>Chapter 1</h2>
-      <p>This chapter explains ba bla bla</p>
-
-      <h2 id="C2">Chapter 2</h2>
-      <p>This chapter explains ba bla bla</p>
-
-      <h2>Chapter 3</h2>
-      <p>This chapter explains ba bla bla</p>
-
-  </ul>
   </body>
-  <p>HTML Image</p>
-  <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/best-girl-cat-names-1606245046.jpg?crop=0.668xw:1.00xh;0.126xw,0&resize=640:*" style="width:200px;height:300px;">
-  <ul>
-    image map - to create clickable area in an image<br>
-    use image as background<br>
-    picture element - display different image on different devices or screen size<br>
-  </ul>
+  <table>
+    <tr>
+      <th>Concepts</th>
+      <th>Descriptions</th>
+      <th>Remarks</th>
+    </tr>
+    <tr>
+      <td>Boiler Plates</td>
+      <td><a href="https://www.freecodecamp.org/news/basic-html5-template-boilerplate-code-example/">Boilerplate</a></td>
+    </tr>
+    <tr>
+      <td>HTML Headings</td>
+      <td>H1 to H6</td>
+    </tr>
+    <tr>
+      <td>HTML Paragraph</td>
+      <td>hr.br.pre</td>
+    </tr>
+    <tr>
+      <td>HTML Style</td>
+      <td>
+        style="property:value;"
+        <ul>
+          Use <b>background-color</b> for background color<br>
+          Use <b>color</b> for text colors<br>
+          Use <b>font-family</b> for text fonts<br>
+          Use <b>font-size</b> for text sizes<br>
+          Use <b>text-align</b> for text alignment<br>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>HTML Formatting</td>
+      <td>
+        <ul>
+          b - Bold text<br>
+          strong - Important text<br>
+          i - Italic text<br>
+          em - Emphasized text<br>
+          mark - Marked text<br>
+          small - Smaller text<br>
+          del - Deleted text<br>
+          ins - Inserted text<br>
+          sub - Subscript text<br>
+          sup - Superscript text<br>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>HTML Quotation and Citation</td>
+      <td>
+        <ul>
+          blockquote<br>
+          q<br>
+          abbr<br>
+          address<br>
+          cite<br>
+          bdo<br>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>HTML Links</td>
+      <td>
+        <ul>
+            target:<br>
+            _self(default) - Open link on same page<br>
+            _blank - Opens the document in a new window or tab<br>
+            _parent - Opens the document in the parent frame<br>
+            _top - Opens the document in the full body of the window<br>
+      
+            <p><a href="#C2">Jump to Chapter 2</a></p>
+            <h2>Chapter 1</h2>
+            <p>This chapter explains ba bla bla</p>
+      
+            <h2 id="C2">Chapter 2</h2>
+            <p>This chapter explains ba bla bla</p>
+      
+            <h2>Chapter 3</h2>
+            <p>This chapter explains ba bla bla</p>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>HTML Images</td>
+      <td>
+        <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/best-girl-cat-names-1606245046.jpg?crop=0.668xw:1.00xh;0.126xw,0&resize=640:*" style="width:200px;height:300px;">
+        <img src="images\profile-pic.jpg" style="width:200px;height:300px;" alt="ME">
+        <ul>
+          image map - to create clickable area in an image<br>
+          use image as background<br>
+          picture element - display different image on different devices or screen size<br>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>HTML Favicon</td>
+      <td>The icon displayed on the browser tab </td>
+    </tr>
+    <tr>
+      <td>HTML Table</td>
+      <td>
+        <p>tr - table row</p>
+        <p>td - table data</p> 
+        <p>th - table heading</p> 
+      </td>
+    </tr>
+    <tr>
+      <td>HTML List</td>
+      <td>
+        <p>ul - unordered list</p>
+        <p>ol - ordered list</p> 
+        <p>li - list items</p> 
+      </td>
+    </tr>
+    <tr>
+      <td>HTML Block and Inline</td>
+      <td>
+        <p>Block - start on a new line and take up the full width available (stretches out to the left and right as far as it can). eg.div</p>
+        <p>Inline -and will not start on a new line and only takes up as much width as necessary. eg.span</p> 
+      </td>
+    </tr>
+    <tr>
+      <td>HTML Classes</td>
+      <td>
+        <p>Classes are used by CSS and JavaScript to select and access specific elements (Multiple HTML elements can share the same class)</p>
+      </td>
+    </tr>
+    <tr>
+      <td>HTML Id</td>
+      <td>
+        <p>Id are used by CSS and JavaScript to select and access specific elements (one element with the same id) </p>
+      </td>
+    </tr>
+    <tr>
+      <td>HTML Iframe</td>
+      <td>
+        <p>An HTML iframe is used to display a web page within a web page.</p>
+        <iframe src="boilerplate.html" height="200" width="300" title="Iframe Example"></iframe>
+      </td>
+    </tr>
+    <tr>
+      <td>HTML Javascript</td>
+      <td>
+        <button type="button" onclick="myFunction()">Click Me!</button>
+
+        <p id="demo">This is a demonstration.</p>
+        
+        <script>
+        function myFunction() { 
+          document.getElementById("demo").innerHTML = "Hello JavaScript!";
+        }
+        </script>
+      </td>
+    </tr>
+  </table>
 </html>
