@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    <link rel="stylesheet" href="mystyle.css">
+  </head>
+  <body>
+	<!--script src="index.js"></script-->
+    <div class="topnav">
+      <a href="boilerplate.html">HTML</a>
+      <a class="active" href="css.html">CSS</a>
+    </div>
+    <h1>My Learning Progress CSS</h1>
+    <a href="https://www.w3schools.com/css/default.asp">W3School CSS</a>
+  </body>
+  <table>
+    <tr>
+      <th>Concepts</th>
+      <th>Descriptions</th>
+      <th>Remarks</th>
+    </tr>
+    <tr>
+      <td>CSS Syntax</td>
+      <td>p {color: red;text-align: center;}
+          <br>
+            <li> p is a selector in CSS (it points to the HTML element you want to style)</li>
+            <li>color is a property, and red is the property value</li>
+            <li> text-align is a property, and center is the property value</li>           
+      </td>
+    </tr>
+    <tr>
+      <td>CSS Selector</td>
+      <td>
+          <li><b>#test</b> -- select element where id ="test"</li>
+          <li><b>.test</b> -- select element where class ="test"</li>
+          <li><b>p.test</b> -- select p element where class ="test"</li>
+          <li><b>*</b> -- select all element</li>
+          <li><b>p</b> -- select all p elements</li>
+          <li><b>div,p</b> -- select all div and p elements</li>
+        </td>
+    </tr>
+    <tr>
+      <td>3 ways to add CSS</td>
+      <td>
+        <li><b>External</b> -- mystyle.css</li>
+        <li><b>Internal</b> -- inside style element,inside of head</li>
+        <li><b>Inline</b> -- for single element</li>
+      </td>
+    </tr>
+    <tr>
+      <td>CSS Background</td>
+      <td> 
+        <li><b>background-attachment</b> -- Sets whether a background image is fixed or scrolls with the rest of the page</li>
+        <li><b>background-clip</b> -- Specifies the painting area of the background</li>
+        <li><b>background-origin</b> -- Specifies where the background image(s) is/are positioned</li>
+        <li><b>background-color</b> -- Sets the background color of an element</li>
+        <li><b>background-image</b> -- Sets the background image for an element</li>
+        <li><b>background-position</b> -- Sets the starting position of a background image</li>
+        <li><b>background-repeat</b> -- Sets how a background image will be repeated</li>
+        <li><b>background-size</b> -- Specifies the size of the background image(s)</li>
+      </td>
+    </tr>
+    <tr>
+      <td>CSS Borders</td>
+      <td>  
+        <ul>
+            <a href="https://www.w3schools.com/css/css_border.asp">Border Styles</a><br>
+            border width<br>
+            border color<br>
+            border sides<br>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>CSS Margins</td>
+      <td>
+        Margins are used to create space around elements, outside of any defined borders<br>
+        Margin collapse happen when the top and bottom margins of elements are collapse into a single margin(larger of the 2 margins)
+        <ul>
+            margin-top<br>
+            margin-right<br>
+            margin-bottom<br>
+            margin-left<br>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>CSS Padding</td>
+      <td>
+        Padding is used to create space around an element's content, inside of any defined borders.
+        <ul>
+            padding-top<br>
+            padding-right<br>
+            padding-bottom<br>
+            padding-left<br>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>CSS Height/Width</td>
+      <td>
+        To set the height and width of an element<br>
+        height and width properties do not include padding, borders, or margins
+      </td>
+    </tr>
+    <tr>
+      <td>CSS Box Model</td>
+      <td> <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTX1JNX4qQGO5UzkPGIjbLsbaPLvhiTR28Fkc4mpzzxx6aGbxFz"> </td>
+    </tr>
+    <tr>
+      <td>CSS Outline</td>
+      <td>
+        An outline is a line drawn outside the element's border.
+        <a href="https://www.w3schools.com/css/css_outline.asp">Outline Styles</a><br>
+        <ul>
+            outline-top<br>
+            outline-right<br>
+            outline-bottom<br>
+            outline-left<br>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>CSS Text</td>
+      <td>
+        <a href="https://www.w3schools.com/css/css_text_shadow.asp">CSS Text Propeties</a><br>
+      </td>
+    </tr>
+    <tr>
+      <td>CSS Font</td>
+      <td>
+        <a href="https://www.w3schools.com/css/css_font_shorthand.asp">CSS Font Propeties</a><br>
+      </td>
+    </tr>
+    <tr>
+      <td>z-index</td>
+      <td>
+        specifies the stack order of an element<br>
+        -1 means behind
+      </td>
+    </tr>
+    <tr>
+      <td>Float and clear</td>
+      <td>
+        float: float the element to the let or right
+        clear: what should happen to the element that is next to the floating element
+      </td>
+    </tr>
+    <tr>
+      <td>CSS Combinator</td>
+      <td>
+        <li><b>div > p</b> -- Selects all p elements where the parent is a div element</li>
+        <li><b>div + p</b> -- Selects the first p element that are placed immediately after div elements</li>
+        <li><b>p ~ ul</b> -- Selects every ul element that are preceded by a p element</li>
+      </td>
+    </tr>
+    <tr>
+      <td>CSS Pseudo classes and elements</td>
+      <td>
+        <a href="https://www.w3schools.com/css/css_pseudo_classes.asp">CSS Pseudo Classes</a><br>
+        <a href="https://www.w3schools.com/css/css_pseudo_elements.asp">CSS Pseudo Elements</a><br>
+      </td>
+    </tr>
+</tr>
+<tr>
+  <td>CSS Dropdown menu</td>
+  <td>
+    <div class="dropdown">
+        <button class="dropbtn">Dropdown</button>
+        <div class="dropdown-content">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+    </div>
+  </td>
+</tr>
+  </table>
+</html>
